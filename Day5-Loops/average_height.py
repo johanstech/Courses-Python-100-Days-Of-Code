@@ -7,4 +7,4 @@ for height in heights:
     num_heights += 1
 
 average_height = round(sum_heights / num_heights)
-print(average_height)
+print("Average height:", average_height)

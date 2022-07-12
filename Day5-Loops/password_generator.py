@@ -14,13 +14,13 @@ nr_symbols = int(input("How many symbols for you like in your password?\n"))
 pw_length = nr_letters + nr_numbers + nr_symbols
 
 pw_list = []
-for i in range(nr_letters):
+for letter in range(nr_letters):
     pw_list.append(choice(letters))
 
-for i in range(nr_numbers):
+for number in range(nr_numbers):
     pw_list.append(choice(numbers))
 
-for i in range(nr_symbols):
+for symbor in range(nr_symbols):
     pw_list.append(choice(symbols))
 
 for i in range(10):
