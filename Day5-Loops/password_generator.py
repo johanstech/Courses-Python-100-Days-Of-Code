@@ -20,7 +20,7 @@ for letter in range(nr_letters):
 for number in range(nr_numbers):
     pw_list.append(choice(numbers))
 
-for symbor in range(nr_symbols):
+for symbol in range(nr_symbols):
     pw_list.append(choice(symbols))
 
 for i in range(10):
