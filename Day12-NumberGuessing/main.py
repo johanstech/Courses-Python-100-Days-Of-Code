@@ -1,12 +1,12 @@
 import os
-import random
+from random import randint
 from art import logo
 
 
 def number_guessing():
     os.system("cls")
     print(logo)
-    hidden_number = random.choice(range(1, 101))
+    hidden_number = randint(1, 101)
     print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100.")
     difficulty = input("Choose a difficulty. (easy/hard)\n").lower()
     if difficulty == "hard" or difficulty == "h":
